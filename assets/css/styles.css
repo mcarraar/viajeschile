@@ -1,5 +1,14 @@
-
-/*  NAVBAR  */
-.color-text {
-    background-color: #0DCAF0;
+/* HEADER Y NAVBAR */
+/*--------------------------------------*/
+/*  COLOR FONDO NAVBAR  */
+.color-bg {
+    /*background-color: #279DA9;*/
+    background-color: transparent;
   }
+
+/* TAMAÑO IMAGEN LOGO SVG*/
+.tamano-svg {
+  width: 2rem;
+}
+
+ 
