@@ -3,9 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+          crossorigin="anonymous">
+
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/fbcfae8b9b.js" crossorigin="anonymous"></script>
+    
+    <!-- CSS INTERNO -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Viajes Chile</title>
 </head>
 <body>
+    <!--------------------->
+    <!-- HEADER Y NAVBAR -->
+    <!--------------------->
+    <header></header>
+
+    <!-------------->
+    <!-- CAROUSEL -->
+    <!-------------->
+    <section></section>
+
+    <!------------------>
+    <!-- PRESENTACION -->
+    <!------------------>
+    <section></section>
+
+    <!---------------->
+    <!-- DESTACADOS -->
+    <!---------------->
+    <section></section>
+
+    <!---------------->
+    <!-- FORMULARIO -->
+    <!---------------->
+    <section></section>
+
+    <!---------------------------->
+    <!-- FOOTER O PIE DE PAGINA -->
+    <!---------------------------->
+    <footer></footer>
+
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+            crossorigin="anonymous">
+    </script>
+
+    <!-- JQUERY LOCAL-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+            crossorigin="anonymous">
+    </script>
+
+    <!-- JAVASCRIPT INTERNO -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- AGREGAR PARA QUE FUNCIONEN LOS POPOVERS -->
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+
+    <!-- AGREGAR PARA QUE FUNCIONEN LOS TOOLTIPS -->
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
     
+    <!-- AGREGAR PARA QUE FUNCIONEN LOS modal -->
+    <script>
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+        myInput.focus()
+        })
+    </script>
 </body>
 </html>
