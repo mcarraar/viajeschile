@@ -1,8 +1,18 @@
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
 /* HEADER Y NAVBAR */
 /*--------------------------------------*/
 /*  COLOR FONDO NAVBAR  */
 .color-bg {
-    /*background-color: #279DA9;*/
     background-color: transparent;
   }
 
@@ -10,5 +20,53 @@
 .tamano-svg {
   width: 2rem;
 }
+/* QUIENES SOMOS PRESENTACION */
+/*--------------------------------------*/
+.ico-aboutus {
+  background-color: #0DCAF0;
+  color: #ffffff;
+}
 
- 
+.parrafo-aboutus {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.tamano-card {
+  width: 18rem;
+  height: 30px;
+  background-color: #000000;
+}
+
+/* DESTACADOS */
+
+.tamano-card2 {
+  width: 300px;
+  height: 30px;
+  background-color: #000000;
+}
+
+.card-cuerpo {
+  background-color: #0DCAF0;
+  color: #ffffff;
+}
+
+/* FOOTER */
+.pie {
+  background-color: #0DCAF0;
+}
+
+.pie a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pie i {
+  font-size: 30px;
+}
+
+.contenedor-flex {
+  display: flex;
+  justify-content: space-between; /* Alinear elementos con espacio entre ellos */
+}
+
