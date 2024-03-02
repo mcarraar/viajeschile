@@ -1,20 +1,17 @@
+*{
+  font-family: "Raleway", sans-serif;
+}
 
 body {
   background-color: #000000;
   color: #ffffff;
 }
 
-body * {
-  margin: 0;
-  border: 0;
-  padding: 0;
-}
 /* HEADER Y NAVBAR */
 /*--------------------------------------*/
 /*  COLOR FONDO NAVBAR  */
 .color-bg {
     background-color: transparent;
-    /* background-color: blueviolet; */
   }
 
 /* TAMAÑO IMAGEN LOGO SVG*/
@@ -41,14 +38,21 @@ body * {
 /* DESTACADOS */
 
 .tamano-card2 {
-  width: 300px;
-  height: 30px;
+  width: 18rem;
+  /* height: 30px; */
   background-color: #000000;
 }
 
 .card-cuerpo {
   background-color: #0DCAF0;
   color: #ffffff;
+}
+
+/*CONTACTO*/
+/*BOTON TOOLTIPS*/
+.tooltip-white {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #ffffff; /* Texto blanco */
 }
 
 /* FOOTER */
@@ -67,6 +71,6 @@ body * {
 
 .contenedor-flex {
   display: flex;
-  justify-content: space-between; /* Alinear elementos con espacio entre ellos */
+  justify-content: space-between;
 }
 
